@@ -1,9 +1,7 @@
-
+```
 import javax.swing.*;
 import java.awt.event.*;
 import java.net.*;
-
-//Creating a class for Finding IP
 public class FindingIP extends JFrame implements ActionListener{
     JLabel l;
     JTextField tf;
@@ -24,6 +22,8 @@ public class FindingIP extends JFrame implements ActionListener{
         setLayout(null);
         setVisible(true);
     }
+    ```
+
     public void actionPerformed(ActionEvent e){
         String url=tf.getText();
         try {
