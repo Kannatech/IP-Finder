@@ -36,7 +36,8 @@ IPFInder: Used to display the requested IP address of requested website
     }
    
 //Crearting action events by making a class action performed
-      public void actionPerformed(ActionEvent e){
+
+     --- public void actionPerformed(ActionEvent e){
         String url=tf.getText();
         try {
             InetAddress ia=InetAddress.getByName(url);
@@ -48,5 +49,7 @@ IPFInder: Used to display the requested IP address of requested website
     }
     public static void main(String[] args) {
         new FindingIP();
-    }} 
+    }
+    } 
+   
  
