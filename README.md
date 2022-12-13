@@ -1,12 +1,23 @@
-```
-import javax.swing.*;
-import java.awt.event.*;
-import java.net.*;
-public class FindingIP extends JFrame implements ActionListener{
-    JLabel l;
-    JTextField tf;
-    JButton b;
-    FindingIP(){
+> 
+> MY First Project
+
+IPFInder: Used to display the requested IP address of requested website
+  
+  
+  
+    
+
+
+
+
+    import javax.swing.*;
+    import java.awt.event.*; 
+    import java.net.*;
+    public class FindingIP extends JFrame implements ActionListener{
+       JLabel l;
+       JTextField tf;
+       JButton b;
+       FindingIP(){
         super("IP Finder Tool - Javatpoint");
         l=new JLabel("Enter URL:");
         l.setBounds(50,70,150,20);;
@@ -22,9 +33,9 @@ public class FindingIP extends JFrame implements ActionListener{
         setLayout(null);
         setVisible(true);
     }
-    ```
+   
 
-    public void actionPerformed(ActionEvent e){
+      public void actionPerformed(ActionEvent e){
         String url=tf.getText();
         try {
             InetAddress ia=InetAddress.getByName(url);
@@ -36,5 +47,5 @@ public class FindingIP extends JFrame implements ActionListener{
     }
     public static void main(String[] args) {
         new FindingIP();
-    }
-}
+    }} 
+ 
