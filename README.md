@@ -17,6 +17,7 @@ IPFInder: Used to display the requested IP address of requested website
        JLabel l;
        JTextField tf;
        JButton b;
+       //Creating a constructor 
        FindingIP(){
         super("IP Finder Tool - Javatpoint");
         l=new JLabel("Enter URL:");
@@ -34,7 +35,7 @@ IPFInder: Used to display the requested IP address of requested website
         setVisible(true);
     }
    
-
+//Crearting action events by making a class action performed
       public void actionPerformed(ActionEvent e){
         String url=tf.getText();
         try {
