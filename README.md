@@ -19,7 +19,7 @@ IPFInder: Used to display the requested IP address of requested website
        JButton b;
        //Creating a constructor 
        FindingIP(){
-        super("IP Finder Tool - Javatpoint");
+        super("IP Finder");
         l=new JLabel("Enter URL:");
         l.setBounds(50,70,150,20);;
         tf=new JTextField();
