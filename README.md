@@ -1,10 +1,3 @@
-# IP-Finder
-##Used to display the Ip address of requested website
-
-
-#####Code for IP_Finder
-
-//Importing the swing package 
 
 import javax.swing.*;
 import java.awt.event.*;
