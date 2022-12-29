@@ -1,7 +1,7 @@
 > 
 > MY First Project
 
-IPFInder: Used to display the requested IP address of requested website
+IPFInder: Used to display the required IP address of requested website
   
   
   
